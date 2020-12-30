@@ -34,6 +34,7 @@ jobs:
           rm -Rf utanvetellenor
           mv utanvetellenor.zip ~/
           ls -al 
+          ls -al ~
           pwd
         
       - name: Upload Release
