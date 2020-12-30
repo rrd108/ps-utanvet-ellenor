@@ -41,6 +41,3 @@ jobs:
           file: "/home/runner/utanvetellenor.zip"
           tags: true
           update_latest_release: true
-          
-
-
