@@ -33,6 +33,8 @@ jobs:
           zip -r0 utanvetellenor.zip utanvetellenor -x "utanvetellenor/.git/*" "utanvetellenor/.github/*" "utanvetellenor/.auto-changelog" "utanvetellenor/.gitignore" "utanvetellenor/.composer-version.js" "utanvetellenor/package.json" "utanvetellenor/package-lock.json"
           rm -Rf utanvetellenor
           mv utanvetellenor.zip ~/
+          ls -al 
+          pwd
         
       - name: Upload Release
         uses: xresloader/upload-to-github-release@v1
