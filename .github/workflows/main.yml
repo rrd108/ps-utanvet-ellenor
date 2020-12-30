@@ -39,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           file: "/home/runner/utanvetellenor.zip"
-          tags: false
+          tags: true
           update_latest_release: true
           
 
